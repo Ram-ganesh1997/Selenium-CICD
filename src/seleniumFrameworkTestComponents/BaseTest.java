@@ -24,7 +24,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import seleniumFrameworkPageObjects.LandingPage;
 
 public class BaseTest {
-
+// THis is the base test only where we create frameworks for all testcases starts from here.
 	public WebDriver driver;
 	public LandingPage landingPage;
 	public WebDriver initializerDriver() throws Exception {
